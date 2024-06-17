@@ -44,7 +44,7 @@ const Hero = () => {
                 <div className=" font-bold dark:text-white text-center">
                     <TypewriterEffect words={words} />
                 </div>
-                <p className='max-w-lg mx-auto dark:text-white text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, provident unde sit ullam soluta veritatis repellendus natus officiis excepturi incidunt nesciunt  enim, impedit</p>
+                <p className='max-w-lg mx-auto dark:text-white text-center'>Discover a world of musical ecstasy, unleash your creativity, and unravel the mysteries of the art of music.</p>
 
                 <div className="mt-4">
                     <Button className={"dark:bg-black/55 bg-white text-black dark:text-white flex items-center space-x-2"}>
