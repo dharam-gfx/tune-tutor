@@ -3,34 +3,46 @@
 import React from 'react'
 import AnimatedBorderCard from './AnimatedBorderCard'
 import MusicData from '../data/music_courses.json'
+import Image from 'next/image';
+import Link from 'next/link';
 function FeaturedCards() {
 
-    const featuredCourses = MusicData.courses.filter((course) => course.isFeatured);
+    const featuredCourses = MusicData.courses.filter( ( course ) => course.isFeatured );
+    interface Course {
+        id: number,
+        title: string,
+        slug: string,
+        description: string,
+        price: number,
+        instructor: string,
+        isFeatured: boolean,
+        image: string
 
+    }
     return (
         <div>
-            <div className='container mx-auto border'>
+            <div className='container mx-auto'>
                 <div>
                     <h1 className='text-3xl md:text-6xl py-8 font-bold text-center'>Featured</h1>
                 </div>
-                <div className="grid mx-auto p-4 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                <div className="grid p-4 gap-6 md:gap-14 sm:grid-cols-2 md:grid-cols-3 ">
                     {
-                        featuredCourses && featuredCourses.map(course => (
+                        featuredCourses && featuredCourses.map( ( course: Course ) => (
                             <div key={course.id} className=''>
-                                <AnimatedBorderCard >
-                                    <div className='col-span-1 flex flex-col'>
-                                        <img className='w-full' src={course.image} alt={course.title} />
-                                        <div className='p-4 flex flex-col'>
-                                            <h1 className='text-2xl font-bold'>{course.title}</h1>
-                                            <p className='opacity-50 flex-1'>{course.description}</p>
-                                            <p className='text-blue-500 dark:text-blue-500 text-2xl font-bold'>Price:  ${course.price}</p>
-                                            <p className='text-right'>{course.instructor}</p>
-                                        </div>
+                                <AnimatedBorderCard className='rounded-[22px] overflow-hidden bg-white dark:bg-zinc-900'>
+                                    {/* <Image className='w-full' width='100' height="100" quality={100} src={course.image} alt={course.slug} /> */}
+                                    <img className='w-full' src={course.image} alt={course.slug} />
+                                    <div className='py-6 px-5 lex flex-col h-ful'>
+                                        <h1 className='text-xl font-bold'>{course.title}</h1>
+                                        <p className='opacity-50 flex-1 py-2 h-24'>{course.description}</p>
+                                        <p className=' pb-6 text-xl font-bold'><span className='text-purple-500 dark:text-purple-500'>Price: </span> ${course.price}</p>
+                                        <Link href={`/courses`}>
+                                            <button className="py-2 block w-full bg-purple-700 transition-colors hover:bg-purple-900 rounded-md">View All Courses </button>
+                                        </Link>
                                     </div>
-
                                 </AnimatedBorderCard>
                             </div>
-                        ))
+                        ) )
                     }
 
                 </div>
@@ -40,3 +52,4 @@ function FeaturedCards() {
 }
 
 export default FeaturedCards
+

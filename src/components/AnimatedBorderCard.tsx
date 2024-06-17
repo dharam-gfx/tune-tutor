@@ -1,12 +1,13 @@
 'use client'
 import React from 'react'
 import { BackgroundGradient } from "./ui/background-gradient";
-const AnimatedBorderCard = ({ children }: {
-    children: React.ReactNode
+const AnimatedBorderCard = ({ children,className }: {
+    children: React.ReactNode,
+    className:string
 }) => {
     return (
         <div>
-            <BackgroundGradient className="rounded-[22px] overflow-hidden bg-white dark:bg-zinc-900">
+            <BackgroundGradient className={`${className} `}>
                 {children}
             </BackgroundGradient>
         </div>

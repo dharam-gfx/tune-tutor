@@ -1,0 +1,74 @@
+{
+    "webinars": [
+        {
+            "id": 1,
+            "title": "Introduction to Music Production",
+            "slug": "introduction-to-music-production",
+            "description": "Discover the basics of music production and learn how to create a simple beat.",
+            "isFeatured": true
+        },
+        {
+            "id": 2,
+            "title": "Jazz Improvisation Techniques",
+            "slug": "jazz-improvisation-techniques",
+            "description": "Learn the techniques of improvisation in jazz music and how to create compelling solos.",
+            "isFeatured": false
+        },
+        {
+            "id": 3,
+            "title": "Music Composition Fundamentals",
+            "slug": "music-composition-fundamentals",
+            "description": "Learn the basics of music composition and how to create your own original pieces.",
+            "isFeatured": true
+        },
+        {
+            "id": 4,
+            "title": "Piano Performance Techniques",
+            "slug": "piano-performance-techniques",
+            "description": "Learn the techniques of piano performance and how to create a stunning performance.",
+            "isFeatured": true
+        },
+        {
+            "id": 5,
+            "title": "Music Theory Fundamentals",
+            "slug": "music-theory-fundamentals",
+            "description": "Learn the basics of music theory and how to understand music better.",
+            "isFeatured": true
+        },
+        {
+            "id": 6,
+            "title": "Guitar Chord Mastery",
+            "slug": "guitar-chord-mastery",
+            "description": "Learn the most common guitar chords and how to create your own licks.",
+            "isFeatured": true
+        },
+        {
+            "id": 7,
+            "title": "Vocal Performance Techniques",
+            "slug": "vocal-performance-techniques",
+            "description": "Learn the techniques of vocal performance and how to create a powerful performance.",
+            "isFeatured": true
+        },
+        {
+            "id": 8,
+            "title": "Music Production Workflows",
+            "slug": "music-production-workflows",
+            "description": "Learn the workflows of music production and how to streamline your production process.",
+            "isFeatured": false
+        },
+        {
+            "id": 9,
+            "title": "Music Marketing Strategies",
+            "slug": "music-marketing-strategies",
+            "description": "Learn the strategies of music marketing and how to effectively promote your music.",
+            "isFeatured": true
+        },
+        {
+            "id": 10,
+            "title": "Music Production Software Basics",
+            "slug": "music-production-software-basics",
+            "description": "Learn the basics of music production software and how to use them effectively.",
+            "isFeatured": false
+        }
+    ]
+}

@@ -31,3 +31,12 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Customize scrollbar */
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #7611b9 #000000;
+}
+
+

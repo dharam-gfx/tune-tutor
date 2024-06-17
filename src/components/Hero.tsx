@@ -25,7 +25,7 @@ const Hero = () => {
         },
         {
             text: "Music.",
-            className: "text-blue-500 dark:text-blue-500 text-3xl md:text-7xl",
+            className: "text-blue-500 dark:text-purple-500 text-3xl md:text-7xl",
         },
     ];
     return (
