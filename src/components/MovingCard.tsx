@@ -8,31 +8,25 @@ const MovingCard = () => {
         {
             quote:
                 "Creativity is allowing yourself to make mistakes. Art is knowing which ones to keep.",
-            name: "Scott Adams",
-            title: "The Dilbert Principle",
+            name: "Kailash Kher",
+            title: "Sanskruti",
         },
         {
             quote:
                 "The best music is the kind that makes you feel alive. The kind that makes you want to move your body, makes you want to dance.",
-            name: "Stevie Wonder",
-            title: "Songs in the Key of Life",
+            name: "S. Janaki",
+            title: "Agni Natchathre",
         },
         {
             quote: "Music is the food of love.",
-            name: "Natalie Cole",
-            title: "Unforgettable... with Love",
-        },
-        {
-            quote:
-                "Music is the universal language. It is the only language which is not subject to the tyranny of prejudice, nationality, or politics.",
-            name: "Albert Einstein",
-            title: "The World as I See It",
+            name: "S. P. Balasubramaniam",
+            title: "Thulasi",
         },
         {
             quote:
                 "Music is like a butterfly, it has eight legs when it is born and it has wings when it dies.",
-            name: "Leo Tolstoy",
-            title: "War and Peace",
+            name: "Satyajit Ray",
+            title: "Pather Panchali",
         },
     ];
     return (
