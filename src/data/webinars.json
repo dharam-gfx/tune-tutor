@@ -5,70 +5,91 @@
             "title": "Introduction to Music Production",
             "slug": "introduction-to-music-production",
             "description": "Discover the basics of music production and learn how to create a simple beat.",
-            "isFeatured": true
+            "isFeatured": true,
+            "content": "In this webinar, you'll learn the fundamentals of music production, including setting up a recording environment, creating a beat, and applying effects. By the end of this session, you'll have a solid understanding of the basics and be ready to start creating your own music. Whether you're a beginner or an experienced producer, this webinar will provide valuable insights and tips to help you enhance your skills.",
+            "image": "/courses/guitar.jpg"
         },
         {
             "id": 2,
             "title": "Jazz Improvisation Techniques",
             "slug": "jazz-improvisation-techniques",
             "description": "Learn the techniques of improvisation in jazz music and how to create compelling solos.",
-            "isFeatured": false
+            "isFeatured": false,
+            "content": "Improvisation is a crucial aspect of jazz music, allowing musicians to express themselves and create unique musical moments. In this webinar, you'll learn the fundamental techniques of jazz improvisation, including chord progressions, melody-based improvisation, and harmony. By the end of this session, you'll have a solid foundation in jazz improvisation and be able to create your own compelling solos.",
+            "image": "/courses/guitar.jpg"
         },
         {
             "id": 3,
             "title": "Music Composition Fundamentals",
             "slug": "music-composition-fundamentals",
             "description": "Learn the basics of music composition and how to create your own original pieces.",
-            "isFeatured": true
+            "isFeatured": true,
+            "content": "Music composition is an art form that allows musicians to express themselves creatively. In this webinar, you'll learn the fundamental principles of music composition, including chord progressions, melody writing, and rhythm. By the end of this session, you'll have a solid understanding of the basics and be able to create your own original pieces.",
+            "image": "/courses/guitar.jpg"
         },
         {
             "id": 4,
             "title": "Piano Performance Techniques",
             "slug": "piano-performance-techniques",
             "description": "Learn the techniques of piano performance and how to create a stunning performance.",
-            "isFeatured": true
+            "isFeatured": true,
+            "content": "Piano performance is an art form that requires skill, technique, and stage presence. In this webinar, you'll learn the fundamental techniques of piano performance, including finger placement, pedaling, and expression. By the end of this session, you'll have a solid understanding of the basics and be able to create stunning performances on the piano.",
+            "image": "/courses/guitar.jpg"
         },
         {
             "id": 5,
             "title": "Music Theory Fundamentals",
             "slug": "music-theory-fundamentals",
             "description": "Learn the basics of music theory and how to understand music better.",
-            "isFeatured": true
+            "isFeatured": true,
+            "content": "Music theory is the foundation of music, allowing us to understand and appreciate music on a deeper level. In this webinar, you'll learn the fundamental principles of music theory, including chord progressions, scales, and rhythm. By the end of this session, you'll have a solid understanding of the basics and be able to analyze and appreciate music more effectively.",
+            "image": "/courses/guitar.jpg"
         },
         {
             "id": 6,
             "title": "Guitar Chord Mastery",
             "slug": "guitar-chord-mastery",
             "description": "Learn the most common guitar chords and how to create your own licks.",
-            "isFeatured": true
+            "isFeatured": true,
+            "content": "Guitar chords are a fundamental aspect of guitar playing, allowing musicians to create melodies and riffs. In this webinar, you'll learn the most common guitar chords and how to create your own licks. By the end of this session, you'll have a solid understanding of the most common chords and be able to create your own unique licks.",
+            "image": "/courses/guitar.jpg"
         },
         {
             "id": 7,
             "title": "Vocal Performance Techniques",
             "slug": "vocal-performance-techniques",
             "description": "Learn the techniques of vocal performance and how to create a powerful performance.",
-            "isFeatured": true
+            "isFeatured": true,
+            "content": "Vocal performance is an art form that requires skill, technique, and stage presence. In this webinar, you'll learn the fundamental techniques of vocal performance, including breath control, pitch, and tone. By the end of this session, you'll have a solid understanding of the basics and be able to create powerful performances on stage.",
+            "image": "/courses/guitar.jpg"
         },
         {
             "id": 8,
             "title": "Music Production Workflows",
             "slug": "music-production-workflows",
             "description": "Learn the workflows of music production and how to streamline your production process.",
-            "isFeatured": false
+            "isFeatured": false,
+            "content": "Music production workflows are an essential aspect of creating high-quality music. In this webinar, you'll learn the fundamental workflows of music production, including recording, editing, and mixing. By the end of this session, you'll have a solid understanding of the workflows and be able to streamline your production process.",
+            "image": "/courses/guitar.jpg"
         },
         {
             "id": 9,
             "title": "Music Marketing Strategies",
             "slug": "music-marketing-strategies",
             "description": "Learn the strategies of music marketing and how to effectively promote your music.",
-            "isFeatured": true
+            "isFeatured": true,
+            "content": "Music marketing is an essential aspect of promoting your music and reaching your audience. In this webinar, you'll learn the fundamental strategies of music marketing, including social media marketing, music distribution, and live performances. By the end of this session, you'll have a solid understanding of the strategies and be able to effectively promote your music.",
+            "image": "/courses/guitar.jpg"
         },
         {
             "id": 10,
             "title": "Music Production Software Basics",
             "slug": "music-production-software-basics",
             "description": "Learn the basics of music production software and how to use them effectively.",
-            "isFeatured": false
+            "isFeatured": false,
+            "content": "Music production software is an essential tool for musicians and producers. In this webinar, you'll learn the fundamental basics of music production software, including DAWs, plugins, and recording techniques. By the end of this session, you'll have a solid understanding of the basics and be able to use the software effectively.",
+            "image": "/courses/guitar.jpg"
         }
     ]
 }
+

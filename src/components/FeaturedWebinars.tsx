@@ -10,7 +10,7 @@ const FeaturedWebinars = () => {
             {
                 title: webinar.title,
                 description: webinar.description,
-                link: `/webinars`
+                link: `/webinars-gg`
             }
         ) );
 
