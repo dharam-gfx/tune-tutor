@@ -7,12 +7,12 @@ import Link from "next/link";
 function NavBar(){
   return (
     <div className="relative w-full flex items-center justify-center">
-      <Navbar className="top-2 px-4" />
+      <NavbarItem className="top-2 px-4" />
     </div>
   );
 }
 
-function Navbar( { className }: { className?: string } ) {
+function NavbarItem( { className }: { className?: string } ) {
   const [active, setActive] = useState<string | null>( null );
   return (
     <div
