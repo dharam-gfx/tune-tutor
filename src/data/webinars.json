@@ -16,7 +16,7 @@
             "description": "Learn the techniques of improvisation in jazz music and how to create compelling solos.",
             "isFeatured": false,
             "content": "Improvisation is a crucial aspect of jazz music, allowing musicians to express themselves and create unique musical moments. In this webinar, you'll learn the fundamental techniques of jazz improvisation, including chord progressions, melody-based improvisation, and harmony. By the end of this session, you'll have a solid foundation in jazz improvisation and be able to create your own compelling solos.",
-            "image": "/courses/guitar.jpg"
+            "image": "/courses/piano.jpg"
         },
         {
             "id": 3,
@@ -34,7 +34,7 @@
             "description": "Learn the techniques of piano performance and how to create a stunning performance.",
             "isFeatured": true,
             "content": "Piano performance is an art form that requires skill, technique, and stage presence. In this webinar, you'll learn the fundamental techniques of piano performance, including finger placement, pedaling, and expression. By the end of this session, you'll have a solid understanding of the basics and be able to create stunning performances on the piano.",
-            "image": "/courses/guitar.jpg"
+            "image": "/courses/vocalist.jpg"
         },
         {
             "id": 5,
@@ -43,7 +43,7 @@
             "description": "Learn the basics of music theory and how to understand music better.",
             "isFeatured": true,
             "content": "Music theory is the foundation of music, allowing us to understand and appreciate music on a deeper level. In this webinar, you'll learn the fundamental principles of music theory, including chord progressions, scales, and rhythm. By the end of this session, you'll have a solid understanding of the basics and be able to analyze and appreciate music more effectively.",
-            "image": "/courses/guitar.jpg"
+            "image": "/courses/song-writing.jpg"
         },
         {
             "id": 6,
@@ -52,7 +52,7 @@
             "description": "Learn the most common guitar chords and how to create your own licks.",
             "isFeatured": true,
             "content": "Guitar chords are a fundamental aspect of guitar playing, allowing musicians to create melodies and riffs. In this webinar, you'll learn the most common guitar chords and how to create your own licks. By the end of this session, you'll have a solid understanding of the most common chords and be able to create your own unique licks.",
-            "image": "/courses/guitar.jpg"
+            "image": "/courses/drumming.jpg"
         },
         {
             "id": 7,
@@ -70,7 +70,7 @@
             "description": "Learn the workflows of music production and how to streamline your production process.",
             "isFeatured": false,
             "content": "Music production workflows are an essential aspect of creating high-quality music. In this webinar, you'll learn the fundamental workflows of music production, including recording, editing, and mixing. By the end of this session, you'll have a solid understanding of the workflows and be able to streamline your production process.",
-            "image": "/courses/guitar.jpg"
+            "image": "/courses/jazz.jpg"
         },
         {
             "id": 9,
@@ -88,7 +88,7 @@
             "description": "Learn the basics of music production software and how to use them effectively.",
             "isFeatured": false,
             "content": "Music production software is an essential tool for musicians and producers. In this webinar, you'll learn the fundamental basics of music production software, including DAWs, plugins, and recording techniques. By the end of this session, you'll have a solid understanding of the basics and be able to use the software effectively.",
-            "image": "/courses/guitar.jpg"
+            "image": "/courses/music-prod.jpg"
         }
     ]
 }

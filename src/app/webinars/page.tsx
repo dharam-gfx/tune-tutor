@@ -1,27 +1,32 @@
 "use client"
 
-import ThreeDCard from "@/components/ThreeDCard"
+import ThreeDCardWebinar from "@/components/ThreeDCardWebinar"
 import allWebinars from "@/data/webinars.json"
-const Page = () => {
-    const webinars = allWebinars.webinars.map( webinar => {
-        return {
-            id: webinar.id,
-            title: webinar.title,
-            description: webinar.description,
-            image: webinar.image,
-            content: webinar.content,
-            slug: "/webinars/"+webinar.slug,
+/**
+ * The main Page component that displays all the webinars.
+ * @returns {JSX.Element} The main Page component.
+ */
+const Page = (): JSX.Element => {
+    const webinars = allWebinars.webinars.map(
+        webinar => {
+            return {
+                id: webinar.id,
+                title: webinar.title,
+                description: webinar.description,
+                image: webinar.image,
+                slug: "/webinars/" + webinar.slug,
+            };
         }
-    } );
+    );
 
     interface Webinar {
         id: number,
         title: string,
         description: string,
         image: string,
-        slug:string,
-        content:string
+        slug: string,
     }
+
     return (
         <div>
             <div className="mt-36">
@@ -34,17 +39,16 @@ const Page = () => {
                 </p>
             </div>
             <div className="grid p-4 gap-6 md:gap-14 sm:grid-cols-2 md:grid-cols-3 ">
-            {
-                webinars && webinars.map((webinar:Webinar) =>(
-                    <div key={webinar.id}>
-                        <ThreeDCard item={webinar}></ThreeDCard>
-                    </div>
-                ))
-            }
+                {webinars &&
+                    webinars.map( ( webinar: Webinar ) => (
+                        <div key={webinar.id}>
+                            <ThreeDCardWebinar {...webinar} />
+                        </div>
+                    ) )}
             </div>
-
         </div>
-    )
-}
+    );
+};
 
-export default Page
+
+export default Page;

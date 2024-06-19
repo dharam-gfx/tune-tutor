@@ -30,8 +30,13 @@ function FeaturedCards() {
                         featuredCourses && featuredCourses.map( ( course: Course ) => (
                             <div key={course.id} className=''>
                                 <AnimatedBorderCard className='rounded-[22px] overflow-hidden bg-white dark:bg-zinc-900'>
-                                    {/* <Image className='w-full' width='100' height="100" quality={100} src={course.image} alt={course.slug} /> */}
-                                    <img className='w-full' src={course.image} alt={course.slug} />
+                                    <Image
+                                        src={course.image}
+                                        height={20}
+                                        width="1000"
+                                        className="w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                                        alt={course.slug}
+                                    />
                                     <div className='py-6 px-5 lex flex-col h-ful'>
                                         <h1 className='text-xl font-bold'>{course.title}</h1>
                                         <p className='opacity-50 flex-1 py-2 h-24'>{course.description}</p>

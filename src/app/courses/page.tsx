@@ -1,6 +1,6 @@
 "use client"
 
-import ThreeDCard from "@/components/ThreeDCard"
+import ThreeDCardCourse from "@/components/ThreeDCardCourse"
 import allCourses from "@/data/music_courses.json"
 const Page = () => {
     const courses = allCourses.courses.map( course => {
@@ -9,17 +9,18 @@ const Page = () => {
             title: course.title,
             description: course.description,
             image: course.image,
-            price: course.price
+            price: course.price,
+            slug: "/courses/" + course.slug
         }
     } );
-    console.log( allCourses );
 
     interface Course {
-        id: number,
-        title: string,
-        description: string,
-        image: string,
-        price: number
+        id: number;
+        title: string;
+        description: string;
+        image: string;
+        price?: number | undefined;
+        slug: string;
     }
     return (
         <div>
@@ -33,13 +34,16 @@ const Page = () => {
                 </p>
             </div>
             <div className="grid p-4 gap-6 md:gap-14 sm:grid-cols-2 md:grid-cols-3 ">
-            {
-                courses && courses.map((course:Course) =>(
-                    <div key={course.id}>
-                        <ThreeDCard item={course}></ThreeDCard>
-                    </div>
-                ))
-            }
+                {
+                    courses && courses.map( ( course: Course ) => (
+                        <div key={course.id}>
+                            <ThreeDCardCourse
+                                {...course}
+                            >
+                            </ThreeDCardCourse>
+                        </div>
+                    ) )
+                }
             </div>
 
         </div>

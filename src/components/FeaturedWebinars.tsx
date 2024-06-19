@@ -1,8 +1,7 @@
 import { HoverEffect } from "./ui/card-hover-effect";
 import webinarsData from '../data/webinars.json'
-import Link from "next/link";
-import Button from "./Button";
 import MovingBorder from "./MovingBorder";
+import Link from "next/link";
 const FeaturedWebinars = () => {
     const featuredWebinars = webinarsData.webinars
         .filter( ( webinar ) => webinar.isFeatured )
@@ -10,7 +9,7 @@ const FeaturedWebinars = () => {
             {
                 title: webinar.title,
                 description: webinar.description,
-                link: `/webinars-gg`
+                slug: `/webinars/${webinar.slug}`,
             }
         ) );
 
@@ -24,7 +23,8 @@ const FeaturedWebinars = () => {
             </div>
             <HoverEffect items={featuredWebinars} />
             <div className="text-center pb-10">
-                <Link href={`/webinars`}>
+
+                <Link href='/webinars'>
                     <MovingBorder
                         borderClassName='h-10 w-20 opacity-[0.8] bg-[radial-gradient(var(--purple-500)_50%,transparent_30%)]'
                         className="bg-white h-10 dark:bg-zinc-900 text-black dark:text-white
