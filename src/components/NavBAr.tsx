@@ -4,7 +4,7 @@ import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
 
-export const NavBar=()=> {
+function NavBar(){
   return (
     <div className="relative w-full flex items-center justify-center">
       <Navbar className="top-2 px-4" />
@@ -38,3 +38,5 @@ function Navbar( { className }: { className?: string } ) {
     </div>
   );
 }
+
+export default NavBar
