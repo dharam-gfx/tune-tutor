@@ -1,7 +1,6 @@
-
-
+import dynamic from 'next/dynamic';
 import React from 'react'
-import AnimatedBorderCard from './AnimatedBorderCard'
+const AnimatedBorderCard=  dynamic(() => import("./AnimatedBorderCard"));
 import MusicData from '../data/music_courses.json'
 import Image from 'next/image';
 import Link from 'next/link';

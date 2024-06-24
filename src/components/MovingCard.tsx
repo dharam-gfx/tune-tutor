@@ -1,5 +1,6 @@
 import React from 'react'
-import GridBackground from './GridBackground'
+import dynamic from 'next/dynamic';
+const GridBackground = dynamic( () => import( "./GridBackground" ) );
 import { InfiniteMovingCards } from './ui/infinite-moving-cards';
 
 const MovingCard = () => {

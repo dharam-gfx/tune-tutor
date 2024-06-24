@@ -1,6 +1,7 @@
 import { HoverEffect } from "./ui/card-hover-effect";
 import webinarsData from '../data/webinars.json'
-import MovingBorder from "./MovingBorder";
+import dynamic from "next/dynamic";
+const MovingBorder= dynamic(() => import("./MovingBorder"))
 import Link from "next/link";
 const FeaturedWebinars = () => {
     const featuredWebinars = webinarsData.webinars

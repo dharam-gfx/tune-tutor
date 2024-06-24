@@ -1,9 +1,9 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { motion } from "framer-motion";
-import React from "react";
 import { AuroraBackground } from "./ui/aurora-background";
-import Button from "./Button";
+const Button = dynamic( () => import( "./Button" ) );
 import { TypewriterEffect } from "./ui/typewriter-effect";
 const Hero = () => {
     const words = [

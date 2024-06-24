@@ -1,6 +1,6 @@
 "use client"
-
-import ThreeDCardWebinar from "@/components/ThreeDCardWebinar"
+import { lazy, Suspense } from "react";
+const ThreeDCardWebinar=  lazy(() => import("@/components/ThreeDCardWebinar"));
 import allWebinars from "@/data/webinars.json"
 /**
  * The main Page component that displays all the webinars.
